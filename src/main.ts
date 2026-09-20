@@ -306,6 +306,7 @@ app.whenReady().then(async () => {
     });
     ipcMain.handle("vault:commitGit", async (_event, message: string) => {
       try {
+        // Test edit for commit flow verification
         const commitMessage = message.trim();
         if (!commitMessage) {
           return { success: false, error: "Commit message cannot be empty" };
