@@ -24,7 +24,7 @@ const config: ForgeConfig = {
       config: {
         repository: {
           owner: "thetanav",
-          name: "mark",
+          name: "mawk",
         },
         draft: true,
         prerelease: false,

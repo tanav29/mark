@@ -1,6 +1,6 @@
 {
   "name": "mark-electron-shadcn",
-  "productName": "Mark",
+  "productName": "Mawk",
   "version": "0.1.0",
   "description": "Markdown editor vault app built on Electron Forge and shadcn/ui",
   "main": ".vite/build/main.js",

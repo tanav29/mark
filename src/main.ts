@@ -19,7 +19,7 @@ interface VaultItem {
   type: "file" | "folder";
 }
 
-const vaultRoot = path.join(os.homedir(), "mark-vault");
+const vaultRoot = path.join(os.homedir(), "mawk-vault");
 let VAULT_PATH = vaultRoot;
 const execFileAsync = promisify(execFile);
 const HTTP_URL_PATTERN = /^https?:\/\//i;
